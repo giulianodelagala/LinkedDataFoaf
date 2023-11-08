@@ -1,0 +1,32 @@
+@base <http://users.dcc.uchile.cl/~ahogan/foaf.ttl> .
+
+@prefix ap: <http://users.dcc.uchile.cl/~ahogan/foaf.ttl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix social: <http://users.dcc.uchile.cl/~ahogan/social.ttl#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix wd: <http://www.wikidata.org/entity/>.
+@prefix dbr: <http://dbpedia.org/resource/>.
+
+<> a foaf:Document ;
+   dc:date "2023-11-08"^^xsd:date ;
+   dc:title "Alex' FOAF Profile"@en ;
+   foaf:primaryTopic <#ap> ;
+   dc:creator <#ap> .
+
+<#ap> a foaf:Person ;
+   rdfs:label "Alexander Pinto" ;
+   rdfs:comment "PhD Student at UC"@en , "Estudiante de Doctorado en la UC"@es ;
+   foaf:name "Alexander Pinto" ;
+   foaf:givenName "Alexander" ;
+   foaf:familyName "Pinto" ;
+   foaf:age 99 ; # it would be better to put date of birth to not have to update every birthday, but hey :)
+   foaf:img <http://aidanhogan.com/img/me-sp.png> ;
+   foaf:knows <http://users.dcc.uchile.cl/~adconcha/foaf.ttl#ab> ;
+   foaf:interest dbr:Semantic_Web , dbr:Hurling , dbr:Cosmic_latte , dbr:Dancing_plague_of_1518 , dbr:Toast_sandwich ;
+   social:likesMovie dbr:Sharknado , dbr:Sharktopus , dbr:Dinoshark , dbr:Mega_Shark_Versus_Giant_Octopus ;
+   social:hasSpiritAnimal dbr:Zebroid ;
+   social:hasFavouritePlatonicSolid dbr:Dodecahedron ;
+   foaf:myersBriggs "INTP" .
