@@ -1,0 +1,2 @@
+# LinkedDataFoaf
+Foaf profile
