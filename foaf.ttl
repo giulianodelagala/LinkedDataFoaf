@@ -24,7 +24,7 @@
    foaf:familyName "Pinto" ;
    foaf:age 99 ; # it would be better to put date of birth to not have to update every birthday, but hey :)
    foaf:img <https://raw.githubusercontent.com/giulianodelagala/LinkedDataFoaf/master/alex_simpson.png> ;
-   foaf:knows <http://users.dcc.uchile.cl/~adconcha/foaf.ttl#ab> ;
+   foaf:knows <http://users.dcc.uchile.cl/~ahogan/foaf.ttl>, <http://users.dcc.uchile.cl/~adconcha/foaf.ttl#ab>, <https://fabianvillena.cl/foaf.ttl#fv>, <http://users.dcc.uchile.cl/~almorale/foaf.ttl>, <http://users.dcc.uchile.cl/~goperez/perfil.ttl> ;
    foaf:homepage <https://www.linkedin.com/in/alexanderpintodelagala/> ;
    foaf:interest dbr:Semantic_Web , dbr:Graph_theory, dbr:Rock_music, dbr:Guitar ;
    social:likesMovie dbr:The_Godfather , dbr:The_Shawshank_Redemption , dbr:No_Country_for_Old_Men, dbr:Shrek ;
