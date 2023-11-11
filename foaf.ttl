@@ -23,10 +23,11 @@
    foaf:givenName "Alexander" ;
    foaf:familyName "Pinto" ;
    foaf:age 99 ; # it would be better to put date of birth to not have to update every birthday, but hey :)
-   foaf:img <http://aidanhogan.com/img/me-sp.png> ;
+   foaf:img <https://raw.githubusercontent.com/giulianodelagala/LinkedDataFoaf/master/alex_simpson.png> ;
    foaf:knows <http://users.dcc.uchile.cl/~adconcha/foaf.ttl#ab> ;
-   foaf:interest dbr:Semantic_Web , dbr:Hurling , dbr:Cosmic_latte , dbr:Dancing_plague_of_1518 , dbr:Toast_sandwich ;
-   social:likesMovie dbr:Sharknado , dbr:Sharktopus , dbr:Dinoshark , dbr:Mega_Shark_Versus_Giant_Octopus ;
-   social:hasSpiritAnimal dbr:Zebroid ;
-   social:hasFavouritePlatonicSolid dbr:Dodecahedron ;
-   foaf:myersBriggs "INTP" .
+   foaf:homepage <https://www.linkedin.com/in/alexanderpintodelagala/> ;
+   foaf:interest dbr:Semantic_Web , dbr:Graph_theory, dbr:Rock_music, dbr:Guitar ;
+   social:likesMovie dbr:The_Godfather , dbr:The_Shawshank_Redemption , dbr:No_Country_for_Old_Men, dbr:Shrek ;
+   social:hasSpiritAnimal dbr:Octopus ;
+   social:hasFavouritePlatonicSolid dbr:Tetrahedron ;
+   foaf:myersBriggs "INFJ" .
